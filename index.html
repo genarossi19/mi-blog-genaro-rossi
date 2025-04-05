@@ -1,19 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>myBlog</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710ed50cb?s=32" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+  <title>GenaBlog</title>
 </head>
-<body>
-    <h1 class="title">Bienvenidos a mi blog</h1>
-    <main class="main">
-       <div>1</div>
-       <div>2</div>
-       <div>3</div>
-       <div>4</div>
-       <div>5</div>
-    </main>
+<body class="body-bg">
+  <header>
+    <nav class="nav-bar">
+      <a href="index.html" class="nav-logo">
+        <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710ed50cb?s=120" alt="Logo" class="logo-img">
+        <span>Genaro Rossi</span>
+      </a>
+      <ul class="nav-menu">
+        <li class="nav-link">Inicio</li>
+        <li class="nav-link">Sobre mi</li>
+        <li class="nav-link">Proyectos</li>
+      </ul>
+      <button class="contact-button">Contáctame</button>
+    </nav>
+    <h1 class="main-heading">Bienvenidos a mi Blog</h1>
+  </header>
+
+  <main class="main-container">
+    <div class="card-wrapper">
+      <!-- CARD 1 -->
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="/img/frontend-y-backend.png" alt="image" class="card-img" />
+        </div>
+        <div class="card-content">
+          <span class="card-date">Feb 15, 2025</span>
+          <h3 class="card-title">
+            <a href="#" class="card-link">Introduccion al Desarrollo web</a>
+          </h3>
+          <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+      </div>
+      <!-- CARD 2 -->
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="/img/htmlycss.jpg" alt="image" class="card-img" />
+        </div>
+        <div class="card-content">
+          <span class="card-date">Mar 29, 2025</span>
+          <h3 class="card-title">
+            <a href="#" class="card-link">Aprende HTML & CSS</a>
+          </h3>
+          <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+      </div>
+      <!-- CARD 3 -->
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="/img/react_logo.png" alt="image" class="card-img" />
+        </div>
+        <div class="card-content">
+          <span class="card-date">Abr 12, 2025</span>
+          <h3 class="card-title">
+            <a href="#" class="card-link">Introduccion a React</a>
+          </h3>
+          <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
