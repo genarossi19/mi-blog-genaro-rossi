@@ -6,6 +6,8 @@
 }
 body {
   font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+ 
 }
 
 
@@ -19,7 +21,7 @@ body {
 
 
 .nav-bar {
-  background: linear-gradient(to right, #040F22, #1E2125);
+  background: linear-gradient(to right, #040F22, #212b38);
   padding: 2rem;
   color: white;
   display: flex;
@@ -163,6 +165,16 @@ body {
 .card-text {
   color: #333;
   font-size: 1rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right, #040F22, #212b38);
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
 
 /* Responsive */
